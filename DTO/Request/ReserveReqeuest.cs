@@ -2,10 +2,7 @@
 
 public class ReserveReqeuest
 {
+    public int UserId { get; set; }
     public int HotelId { get; set; }
-    
-    
-   
-    // public 
-    
+    public int RoomId { get; set; }
 }

@@ -1,6 +1,14 @@
-﻿namespace Hotel_Vilobiot.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using Hotel_Vilobiot.Models;
 
-public class DataContext
+namespace Hotel_Vilobiot.Data;
+
+public class DataContext : DbContext
 {
-    
+    public DbSet<Guest> Users { get; set; }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        optionsBuilder.UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;");
+    }
 }
