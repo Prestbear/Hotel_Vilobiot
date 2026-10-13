@@ -5,6 +5,7 @@ public class ReserveReqeuest
     public int HotelId { get; set; }
     
     
+   
     // public 
     
 }
