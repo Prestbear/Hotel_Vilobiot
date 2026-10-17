@@ -45,7 +45,8 @@ public class GuestService : IGuestService.IGuestService
     {
         var verifyGuest = _context.Guests.FirstOrDefault(x => x.Email == email && x.Code == code);
         if (verifyGuest != null) return true;
-        if (!BCrypt.Net.BCrypt.Verify(email, code)) return true;
+        verifyGuest.Code = null;
+        _context.SaveChanges();
         return true;
     }
 

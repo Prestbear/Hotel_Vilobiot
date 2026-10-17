@@ -16,5 +16,8 @@ public class GuestValidator : AbstractValidator<RegisterRequest>
         RuleFor(x => x.Age)
             .InclusiveBetween(10, 100)
             .WithMessage("Age must be between 10 and 100");
+        RuleFor(y => y.FullName)
+            .NotEmpty()
+            .WithMessage("Full name required");
     }
 }

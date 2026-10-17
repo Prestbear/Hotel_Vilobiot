@@ -14,5 +14,8 @@ public class EditGuestValidator : AbstractValidator<EditGuestRequest>
         RuleFor(x => x.Age)
             .InclusiveBetween(10, 100)
             .WithMessage("Age must be between 10 and 100");
+        RuleFor(x => x.FullName)
+            .NotEmpty()
+            .WithMessage("Full name required");
     }
 }
