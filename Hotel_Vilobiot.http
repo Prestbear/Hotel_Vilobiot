@@ -1,0 +1,6 @@
+@Hotel_Vilobiot_HostAddress = http://localhost:5097
+
+GET {{Hotel_Vilobiot_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
