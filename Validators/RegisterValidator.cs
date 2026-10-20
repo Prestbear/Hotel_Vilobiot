@@ -17,7 +17,7 @@ public class RegisterValidator : AbstractValidator<RegisterRequest>
         RuleFor(x => x.Age)
             .GreaterThanOrEqualTo(18)
             .WithMessage("Age must be at least 18");
-        RuleFor(y => y.FullName)
+        RuleFor(x => x.FullName)
             .NotEmpty()
             .WithMessage("Full name required");
     }
