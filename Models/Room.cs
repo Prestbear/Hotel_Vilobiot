@@ -14,4 +14,5 @@ public class Room
     public double PricePerNight { get; set; }
     public RoomTypeEnum RoomType { get; set; }
     public bool Status { get; set; }
+    public int HotelId { get; set; }
 }
