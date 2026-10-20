@@ -19,5 +19,4 @@ public class Guest
     public string Phone { get; set; }
     public bool IsVerified { get; set; } = false;
     public string? Code { get; set; }
-    public RoomTypeEnum RoomType { get; set; }
 }

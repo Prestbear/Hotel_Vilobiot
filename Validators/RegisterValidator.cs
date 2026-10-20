@@ -3,9 +3,9 @@ using Hotel_Vilobiot.DTO.Request;
 
 namespace Hotel_Vilobiot.Validators;
 
-public class GuestValidator : AbstractValidator<RegisterRequest>
+public class RegisterValidator : AbstractValidator<RegisterRequest>
 {
-    public GuestValidator()
+    public RegisterValidator()
     {
         RuleFor(x => x.Email).EmailAddress()
             .WithMessage("Invalid Email").NotEmpty().WithMessage("Email required");

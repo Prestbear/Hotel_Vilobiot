@@ -11,5 +11,7 @@ public class Room
     public int Id { get; set; }
     public int Number { get; set; }
     public int Floor { get; set; }
+    public double PricePerNight { get; set; }
     public RoomTypeEnum RoomType { get; set; }
+    public bool Status { get; set; }
 }

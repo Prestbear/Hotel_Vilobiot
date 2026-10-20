@@ -16,7 +16,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DataContext>();
 builder.Services.AddScoped<IGuestService, GuestService>();
 builder.Services.AddAutoMapper(cnf => { }, typeof(UserMapper));
-builder.Services.AddValidatorsFromAssemblyContaining<GuestValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<RegisterValidator>();
 
 var app = builder.Build();
 
