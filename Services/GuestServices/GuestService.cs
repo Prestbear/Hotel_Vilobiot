@@ -24,8 +24,10 @@ public class GuestService : IGuestService.IGuestService
     {
         var registerGuest = _context.Guests.FirstOrDefault(x => x.Email == req.Email);
         if (registerGuest != null) return false;
+       
         req.Password = BCrypt.Net.BCrypt.HashPassword(req.Password);
         var guestToCreate = _mapper.Map<Guest>(req);
+        
         _context.Guests.Add(guestToCreate);
         _context.SaveChanges();
         var mail = SMTPService.SendEmail(req.Email, req.FullName);
