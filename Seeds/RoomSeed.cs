@@ -43,5 +43,9 @@ public static class RoomSeed
 
             new Room(501, 5) { Id = 20, HotelId = 14, PricePerNight = 550, RoomType = RoomTypeEnum.luxury_five, Status = true }
         );
+
+
+
+
     }
 }
