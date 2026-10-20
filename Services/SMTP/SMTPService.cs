@@ -17,7 +17,7 @@ public class SMTPService
         string code = GenerateCode();
 
         string htmlContent = $"""
-                              <div style="font-family:Arial">
+                              <div style="font-family:Arial">   
                                   <h2>Hello, {username}!</h2>
                                   <p>your code is:</p>
                                   <h1 style="letter-spacing:6px">{code}</h1>
