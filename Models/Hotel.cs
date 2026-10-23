@@ -14,4 +14,5 @@ public class Hotel
     public string  City { get; set; }
     public decimal Stars { get; set; }
     public List<Room> Rooms { get; set; }
+    // gg
 }

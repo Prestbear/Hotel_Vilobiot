@@ -15,7 +15,7 @@ builder.Services.AddOpenApi();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DataContext>();
 builder.Services.AddScoped<IGuestService, GuestService>();
-builder.Services.AddAutoMapper(cnf => { }, typeof(UserMapper));
+builder.Services.AddAutoMapper(cnf => { }, typeof(GuestMapper));
 builder.Services.AddValidatorsFromAssemblyContaining<RegisterValidator>();
 
 var app = builder.Build();

@@ -6,9 +6,9 @@ using RegisterRequest = Microsoft.AspNetCore.Identity.Data.RegisterRequest;
 
 namespace Hotel_Vilobiot.Helpers;
 
-public class UserMapper : Profile
+public class GuestMapper : Profile
 {
-    public UserMapper()
+    public GuestMapper()
     {
         CreateMap<Guest, RegisterRequest>().ReverseMap();
         CreateMap<Guest, EditGuestRequest>().ReverseMap();

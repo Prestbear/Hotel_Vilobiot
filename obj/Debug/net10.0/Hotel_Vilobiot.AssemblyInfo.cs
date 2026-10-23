@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hotel_Vilobiot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebbee32e58794f8796971e2b835ffca29b2bea79")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11e2bed953074203de18f9fe8155c51a853abca2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hotel_Vilobiot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hotel_Vilobiot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
