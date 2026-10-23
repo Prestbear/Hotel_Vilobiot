@@ -43,7 +43,7 @@ public class SMTPService
 
         await smtp.SendMailAsync(mail);
 
-        Codes[email] = (code, DateTime.UtcNow.AddMinutes(5));
+        Codes[email] = (code, DateTime.UtcNow.AddMinutes(5)); // 5 min whait
         return true;
     }
 
