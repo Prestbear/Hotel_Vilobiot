@@ -7,45 +7,45 @@ namespace Hotel_Vilobiot.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class UserController : Controller
+public class GuestController : Controller
 {
-    private readonly IGuestService _us;
-    public UserController(IGuestService us) => _us = us;
+    private readonly IGuestService _gs;
+    public GuestController(IGuestService gs) => _gs = gs;
 
     [HttpPost("register")]
     public IActionResult Register(RegisterRequest req, IValidator<RegisterRequest> validator)
     {
         var result = validator.Validate(req);
         if (!result.IsValid) return BadRequest(result);
-        var userToAdd = _us.Register(req);
-        return Ok("user registered");
+        var userToAdd = _gs.Register(req);
+        return Ok("guest registered");
     }
 
     [HttpPost("login")]
     public IActionResult Login(LoginRequest request)
     {
-        var result = _us.Login(request);
-        return Ok("user login");
+        var result = _gs.Login(request);
+        return Ok("guest login");
     }
 
     [HttpPost("Verify")]
     public IActionResult Verify(string email, string code)
     {
-        var result = _us.Verify(email, code);
-        return Ok("user verified");
+        var result = _gs.Verify(email, code);
+        return Ok("guest verified");
     }
 
-    [HttpPut("update-user/${id}")]
+    [HttpPut("update-guest/${id}")]
     public IActionResult Update(int id, EditGuestRequest req)
     {
-        var updatedUser = _us.UpdateGuest(id, req);
-        return Ok("user updated");
+        var updatedUser = _gs.UpdateGuest(id, req);
+        return Ok("guest updated");
     }
 
-    [HttpDelete("delete-user/${id}")]
+    [HttpDelete("delete-guest/${id}")]
     public IActionResult Deleter(int id)
     {
-        var userToRemove = _us.DeleteGuest(id);
-        return Ok("user deleted");
+        var userToRemove = _gs.DeleteGuest(id);
+        return Ok("guest deleted");
     }
 }

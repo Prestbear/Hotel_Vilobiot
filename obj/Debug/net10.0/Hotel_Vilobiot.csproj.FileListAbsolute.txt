@@ -552,3 +552,6 @@ C:\Users\student\Documents\GitHub\Hotel_Vilobiot\bin\Debug\net10.0\Hotel_Vilobio
 C:\Users\student\Documents\GitHub\Hotel_Vilobiot\obj\Debug\net10.0\Hotel_Vilobiot.genruntimeconfig.cache
 C:\Users\student\Documents\GitHub\Hotel_Vilobiot\obj\Debug\net10.0\ref\Hotel_Vilobiot.dll
 C:\Users\student\Documents\GitHub\Hotel_Vilobiot\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Administrator\RiderProjects\Hotel_Vilobiot\Hotel_Vilobiot\bin\Debug\net10.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Administrator\RiderProjects\Hotel_Vilobiot\Hotel_Vilobiot\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Administrator\RiderProjects\Hotel_Vilobiot\Hotel_Vilobiot\obj\Debug\net10.0\Hotel_Vilobiot.sourcelink.json

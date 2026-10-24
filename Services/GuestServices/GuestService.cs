@@ -43,7 +43,7 @@ public class GuestService : IGuestService.IGuestService
     public bool Verify(string email, string code)
     {
         var verifyGuest = _context.Guests.FirstOrDefault(x => x.Email == email && x.Code == code);
-        if (verifyGuest != null) return true;
+        if (verifyGuest == null) return false;
         verifyGuest.Code = null;
         _context.SaveChanges();
         return true;
