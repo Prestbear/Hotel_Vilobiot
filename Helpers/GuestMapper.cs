@@ -1,8 +1,6 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Identity.Data;
 using Hotel_Vilobiot.DTO.Request;
 using Hotel_Vilobiot.Models;
-using RegisterRequest = Microsoft.AspNetCore.Identity.Data.RegisterRequest;
 
 namespace Hotel_Vilobiot.Helpers;
 
@@ -12,5 +10,14 @@ public class GuestMapper : Profile
     {
         CreateMap<Guest, RegisterRequest>().ReverseMap();
         CreateMap<Guest, EditGuestRequest>().ReverseMap();
+        CreateMap<Guest, LoginRequest>().ReverseMap();
+
+        //Hotel
+        CreateMap<Hotel, ReserveReqeuest>().ReverseMap();
+        CreateMap<Hotel, CheckOutReqeust>().ReverseMap();
+
+
+
+
     }
 }

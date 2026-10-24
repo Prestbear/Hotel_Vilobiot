@@ -3,7 +3,8 @@
     "",
     "\\DTO",
     "\\DTO\\Request",
-    "\\Models"
+    "\\Models",
+    "\\Validators"
   ],
   "SelectedNode": "\\Models\\Guest.cs",
   "PreviewInSolutionExplorer": false

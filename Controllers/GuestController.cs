@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
-using Microsoft.AspNetCore.Mvc;
 using Hotel_Vilobiot.DTO.Request;
 using Hotel_Vilobiot.Services.IGuestService;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Hotel_Vilobiot.Controllers;
 
@@ -22,20 +22,20 @@ public class UserController : Controller
     }
 
     [HttpPost("login")]
-    public IActionResult Login(string email, string password)
+    public IActionResult Login(LoginRequest request)
     {
-        var result = _us.Login(email, password);
+        var result = _us.Login(request);
         return Ok("user login");
     }
-    
-    [HttpGet("Verify")]
+
+    [HttpPost("Verify")]
     public IActionResult Verify(string email, string code)
     {
         var result = _us.Verify(email, code);
         return Ok("user verified");
     }
 
-    [HttpPost("update-user/${id}")]
+    [HttpPut("update-user/${id}")]
     public IActionResult Update(int id, EditGuestRequest req)
     {
         var updatedUser = _us.UpdateGuest(id, req);
