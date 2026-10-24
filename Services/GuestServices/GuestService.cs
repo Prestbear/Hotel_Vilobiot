@@ -1,10 +1,7 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Identity.Data;
-using Microsoft.EntityFrameworkCore;
 using Hotel_Vilobiot.Data;
 using Hotel_Vilobiot.DTO.Request;
 using Hotel_Vilobiot.Models;
-using RegisterRequest = Hotel_Vilobiot.DTO.Request.RegisterRequest;
 using Hotel_Vilobiot.Services.SMTP;
 
 namespace Hotel_Vilobiot.Services.GuestService;
@@ -24,22 +21,22 @@ public class GuestService : IGuestService.IGuestService
     {
         var registerGuest = _context.Guests.FirstOrDefault(x => x.Email == req.Email);
         if (registerGuest != null) return false;
-       
+
         req.Password = BCrypt.Net.BCrypt.HashPassword(req.Password);
         var guestToCreate = _mapper.Map<Guest>(req);
-        
+
         _context.Guests.Add(guestToCreate);
         _context.SaveChanges();
         var mail = SMTPService.SendEmail(req.Email, req.FullName);
         return true;
     }
 
-    public Guest Login(string email, string password)
+    public Guest Login(LoginRequest req)
     {
         var loginGuest = _context.Guests.FirstOrDefault
-            (x => x.Email == email && x.Password == password);
-        if (loginGuest != null) return null;
-        if (!BCrypt.Net.BCrypt.Verify(password, loginGuest.Password)) return null;
+            (x => x.Email == req.Email && x.Password == req.Password);
+        if (loginGuest == null) return null;
+        if (!BCrypt.Net.BCrypt.Verify(req.Password, loginGuest.Password)) return null;
         return loginGuest;
     }
 
@@ -54,7 +51,7 @@ public class GuestService : IGuestService.IGuestService
 
     public bool UpdateGuest(int id, EditGuestRequest req)
     {
-        var updateGuest = _context.Guests.FirstOrDefault(x => x.FullName == req.FullName);
+        var updateGuest = _context.Guests.FirstOrDefault(x => x.Id == id);
         if (updateGuest == null) return false;
         _mapper.Map(req, updateGuest);
         _context.Update(updateGuest);
