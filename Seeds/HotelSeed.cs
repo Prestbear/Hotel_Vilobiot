@@ -23,7 +23,7 @@ public static class HotelSeed
             new Hotel("Vilobiot Wine Resort", "Telavi", 4.5m) { Id = 12 },
             new Hotel("Vilobiot Forest Lodge", "Borjomi", 4m) { Id = 13 },
             new Hotel("Vilobiot Black Sea Palace", "Batumi", 5m) { Id = 14 },
-            new Hotel("Vilobiot Old Town Hotel", "Tbilisi", 4m) { Id = 15 }
+            new Hotel("Vilobiot Village Hotel", "Oni---Cxmori", 5m) { Id = 15 }
         );
     }
 }

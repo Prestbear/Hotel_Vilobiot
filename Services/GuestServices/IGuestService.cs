@@ -8,6 +8,6 @@ public interface IGuestService
     public bool Register(RegisterRequest req);
     public Guest Login(LoginRequest req);
     public bool Verify(string email, string code);
-    public bool DeleteGuest(int id);
     public bool UpdateGuest(int id, EditGuestRequest req);
+    public bool DeleteGuest(int id);
 }

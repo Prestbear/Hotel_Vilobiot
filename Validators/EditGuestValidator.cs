@@ -11,7 +11,6 @@ public class EditGuestValidator : AbstractValidator<EditGuestRequest>
             .WithMessage("Password required")
             .MinimumLength(8)
             .WithMessage("Password should be at least 8 characters");
-        
         RuleFor(x => x.Age)
             .GreaterThanOrEqualTo(18)
             .WithMessage("Age must be at least 18");
