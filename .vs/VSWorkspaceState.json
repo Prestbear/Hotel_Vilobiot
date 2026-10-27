@@ -1,11 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\DTO",
-    "\\DTO\\Request",
-    "\\Models",
-    "\\Validators"
+    ""
   ],
-  "SelectedNode": "\\Models\\Guest.cs",
+  "SelectedNode": "\\Hotel_Vilobiot.slnx",
   "PreviewInSolutionExplorer": false
 }

@@ -3,36 +3,99 @@
   "WorkspaceRootPath": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\services\\guestservices\\guestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:services\\guestservices\\guestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\services\\hotelservices\\ihotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:services\\hotelservices\\ihotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\dto\\request\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:dto\\request\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Migrations\\20261024133740_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20261024133740_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\validators\\reservationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:validators\\reservationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\validators\\registervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:validators\\registervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\validators\\loginvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:validators\\loginvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\validators\\editguestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:validators\\editguestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\services\\smtp\\smtpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:services\\smtp\\smtpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\seeds\\roomseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:seeds\\roomseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\seeds\\hotelseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:seeds\\hotelseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\dto\\request\\reservereqeuest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:dto\\request\\reservereqeuest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\dto\\request\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:dto\\request\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\dto\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:dto\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\dto\\request\\editguestrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:dto\\request\\editguestrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\dto\\request\\checkoutreqeust.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:dto\\request\\checkoutreqeust.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\enum\\roomtypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:enum\\roomtypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\services\\hotelservices\\hotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:services\\hotelservices\\hotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/hoteeell/True/SqlTable/dbo.Guests.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\helpers\\guestmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:helpers\\guestmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|c:\\users\\student\\documents\\github\\hotel_vilobiot\\services\\guestservices\\guestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE3FF1B-8567-4F1D-5279-DEABCA558F10}|Hotel_Vilobiot.csproj|solutionrelative:services\\guestservices\\guestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +105,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,104 +137,309 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterRequest.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\DTO\\Request\\RegisterRequest.cs",
-              "RelativeDocumentMoniker": "DTO\\Request\\RegisterRequest.cs",
-              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\DTO\\Request\\RegisterRequest.cs",
-              "RelativeToolTip": "DTO\\Request\\RegisterRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "IHotelService.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Services\\HotelServices\\IHotelService.cs",
+              "RelativeDocumentMoniker": "Services\\HotelServices\\IHotelService.cs",
+              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Services\\HotelServices\\IHotelService.cs",
+              "RelativeToolTip": "Services\\HotelServices\\IHotelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T13:39:54.611Z",
+              "WhenOpened": "2026-10-27T13:34:35.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservationValidator.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Validators\\ReservationValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\ReservationValidator.cs",
+              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Validators\\ReservationValidator.cs",
+              "RelativeToolTip": "Validators\\ReservationValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:33:25.551Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Guest.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Models\\Guest.cs",
-              "RelativeDocumentMoniker": "Models\\Guest.cs",
-              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Models\\Guest.cs",
-              "RelativeToolTip": "Models\\Guest.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T13:36:47.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20261024133740_init.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Migrations\\20261024133740_init.cs",
-              "RelativeDocumentMoniker": "Migrations\\20261024133740_init.cs",
-              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Migrations\\20261024133740_init.cs",
-              "RelativeToolTip": "Migrations\\20261024133740_init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T13:37:40.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Data\\DataContext.cs",
-              "RelativeToolTip": "Data\\DataContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T13:37:20.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "RegisterValidator.cs",
               "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Validators\\RegisterValidator.cs",
               "RelativeDocumentMoniker": "Validators\\RegisterValidator.cs",
               "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Validators\\RegisterValidator.cs",
               "RelativeToolTip": "Validators\\RegisterValidator.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAzwBIAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAzwAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T13:35:03.558Z",
+              "WhenOpened": "2026-10-27T13:33:22.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginValidator.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Validators\\LoginValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\LoginValidator.cs",
+              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Validators\\LoginValidator.cs",
+              "RelativeToolTip": "Validators\\LoginValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:33:19.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditGuestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Validators\\EditGuestValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\EditGuestValidator.cs",
+              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Validators\\EditGuestValidator.cs",
+              "RelativeToolTip": "Validators\\EditGuestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:32:59.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SMTPService.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Services\\SMTP\\SMTPService.cs",
+              "RelativeDocumentMoniker": "Services\\SMTP\\SMTPService.cs",
+              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Services\\SMTP\\SMTPService.cs",
+              "RelativeToolTip": "Services\\SMTP\\SMTPService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:29:37.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "GuestMapper.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Helpers\\GuestMapper.cs",
-              "RelativeDocumentMoniker": "Helpers\\GuestMapper.cs",
-              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Helpers\\GuestMapper.cs",
-              "RelativeToolTip": "Helpers\\GuestMapper.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Title": "RoomSeed.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Seeds\\RoomSeed.cs",
+              "RelativeDocumentMoniker": "Seeds\\RoomSeed.cs",
+              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Seeds\\RoomSeed.cs",
+              "RelativeToolTip": "Seeds\\RoomSeed.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T13:28:35.791Z",
+              "WhenOpened": "2026-10-27T13:28:54.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HotelSeed.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Seeds\\HotelSeed.cs",
+              "RelativeDocumentMoniker": "Seeds\\HotelSeed.cs",
+              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Seeds\\HotelSeed.cs",
+              "RelativeToolTip": "Seeds\\HotelSeed.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:28:42.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReserveReqeuest.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\DTO\\Request\\ReserveReqeuest.cs",
+              "RelativeDocumentMoniker": "DTO\\Request\\ReserveReqeuest.cs",
+              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\DTO\\Request\\ReserveReqeuest.cs",
+              "RelativeToolTip": "DTO\\Request\\ReserveReqeuest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:28:31.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\DTO\\Request\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "DTO\\Request\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\DTO\\Request\\RegisterRequest.cs",
+              "RelativeToolTip": "DTO\\Request\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:28:31.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\DTO\\Request\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "DTO\\Request\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\DTO\\Request\\LoginRequest.cs",
+              "RelativeToolTip": "DTO\\Request\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:28:31.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EditGuestRequest.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\DTO\\Request\\EditGuestRequest.cs",
+              "RelativeDocumentMoniker": "DTO\\Request\\EditGuestRequest.cs",
+              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\DTO\\Request\\EditGuestRequest.cs",
+              "RelativeToolTip": "DTO\\Request\\EditGuestRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:28:30.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "Models\\Room.cs",
+              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Models\\Room.cs",
+              "RelativeToolTip": "Models\\Room.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:26:07.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CheckOutReqeust.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\DTO\\Request\\CheckOutReqeust.cs",
+              "RelativeDocumentMoniker": "DTO\\Request\\CheckOutReqeust.cs",
+              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\DTO\\Request\\CheckOutReqeust.cs",
+              "RelativeToolTip": "DTO\\Request\\CheckOutReqeust.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:28:28.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RoomTypeEnum.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Enum\\RoomTypeEnum.cs",
+              "RelativeDocumentMoniker": "Enum\\RoomTypeEnum.cs",
+              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Enum\\RoomTypeEnum.cs",
+              "RelativeToolTip": "Enum\\RoomTypeEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:28:01.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Models\\Reservation.cs",
+              "RelativeToolTip": "Models\\Reservation.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAzwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:25:54.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Models\\Hotel.cs",
+              "RelativeDocumentMoniker": "Models\\Hotel.cs",
+              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Models\\Hotel.cs",
+              "RelativeToolTip": "Models\\Hotel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:25:39.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Guest.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Models\\Guest.cs",
+              "RelativeDocumentMoniker": "Models\\Guest.cs",
+              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Models\\Guest.cs",
+              "RelativeToolTip": "Models\\Guest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:25:02.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:24:46.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HotelService.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Services\\HotelServices\\HotelService.cs",
+              "RelativeDocumentMoniker": "Services\\HotelServices\\HotelService.cs",
+              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Services\\HotelServices\\HotelService.cs",
+              "RelativeToolTip": "Services\\HotelServices\\HotelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:22:00.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Data\\DataContext.cs",
+              "RelativeToolTip": "Data\\DataContext.cs",
+              "ViewState": "AgIAAA0AAABghel7DYkgwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:06:24.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "dbo.Guests [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/hoteeell/True/SqlTable/dbo.Guests.sql",
+              "ToolTip": "dbo.Guests [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-10-27T13:09:15.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "GuestController.cs",
               "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Controllers\\GuestController.cs",
               "RelativeDocumentMoniker": "Controllers\\GuestController.cs",
               "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Controllers\\GuestController.cs",
               "RelativeToolTip": "Controllers\\GuestController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-24T12:33:27.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 23,
               "Title": "GuestService.cs",
               "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Services\\GuestServices\\GuestService.cs",
               "RelativeDocumentMoniker": "Services\\GuestServices\\GuestService.cs",
               "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Services\\GuestServices\\GuestService.cs",
               "RelativeToolTip": "Services\\GuestServices\\GuestService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA3wCQAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAABAkbWGUssHwAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-24T12:22:45.093Z",
               "EditorCaption": ""

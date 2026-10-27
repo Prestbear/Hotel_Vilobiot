@@ -5,10 +5,10 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/User/register": {
+    "/api/Guest/register": {
       "post": {
         "tags": [
-          "User"
+          "Guest"
         ],
         "requestBody": {
           "content": {
@@ -36,10 +36,10 @@
         }
       }
     },
-    "/api/User/login": {
+    "/api/Guest/login": {
       "post": {
         "tags": [
-          "User"
+          "Guest"
         ],
         "requestBody": {
           "content": {
@@ -67,10 +67,10 @@
         }
       }
     },
-    "/api/User/Verify": {
+    "/api/Guest/Verify": {
       "post": {
         "tags": [
-          "User"
+          "Guest"
         ],
         "parameters": [
           {
@@ -95,10 +95,10 @@
         }
       }
     },
-    "/api/User/update-user/${id}": {
+    "/api/Guest/update-guest/${id}": {
       "put": {
         "tags": [
-          "User"
+          "Guest"
         ],
         "parameters": [
           {
@@ -137,10 +137,10 @@
         }
       }
     },
-    "/api/User/delete-user/${id}": {
+    "/api/Guest/delete-guest/${id}": {
       "delete": {
         "tags": [
-          "User"
+          "Guest"
         ],
         "parameters": [
           {
@@ -225,7 +225,7 @@
   },
   "tags": [
     {
-      "name": "User"
+      "name": "Guest"
     }
   ]
 }

@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "Hotel_Vilobiot.Controllers.UserController",
+    "ContainingType": "Hotel_Vilobiot.Controllers.GuestController",
     "Method": "Deleter",
-    "RelativePath": "api/User/delete-user/${id}",
+    "RelativePath": "api/Guest/delete-guest/${id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -16,9 +16,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Hotel_Vilobiot.Controllers.UserController",
+    "ContainingType": "Hotel_Vilobiot.Controllers.GuestController",
     "Method": "Login",
-    "RelativePath": "api/User/login",
+    "RelativePath": "api/Guest/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -32,9 +32,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Hotel_Vilobiot.Controllers.UserController",
+    "ContainingType": "Hotel_Vilobiot.Controllers.GuestController",
     "Method": "Register",
-    "RelativePath": "api/User/register",
+    "RelativePath": "api/Guest/register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -48,9 +48,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Hotel_Vilobiot.Controllers.UserController",
+    "ContainingType": "Hotel_Vilobiot.Controllers.GuestController",
     "Method": "Update",
-    "RelativePath": "api/User/update-user/${id}",
+    "RelativePath": "api/Guest/update-guest/${id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -69,9 +69,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Hotel_Vilobiot.Controllers.UserController",
+    "ContainingType": "Hotel_Vilobiot.Controllers.GuestController",
     "Method": "Verify",
-    "RelativePath": "api/User/Verify",
+    "RelativePath": "api/Guest/Verify",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

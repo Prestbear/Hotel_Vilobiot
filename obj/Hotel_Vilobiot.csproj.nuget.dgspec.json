@@ -1,29 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\RiderProjects\\Hotel_Vilobiot\\Hotel_Vilobiot\\Hotel_Vilobiot.csproj": {}
+    "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Hotel_Vilobiot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\RiderProjects\\Hotel_Vilobiot\\Hotel_Vilobiot\\Hotel_Vilobiot.csproj": {
+    "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Hotel_Vilobiot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\RiderProjects\\Hotel_Vilobiot\\Hotel_Vilobiot\\Hotel_Vilobiot.csproj",
+        "projectUniqueName": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Hotel_Vilobiot.csproj",
         "projectName": "Hotel_Vilobiot",
-        "projectPath": "C:\\Users\\Administrator\\RiderProjects\\Hotel_Vilobiot\\Hotel_Vilobiot\\Hotel_Vilobiot.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\RiderProjects\\Hotel_Vilobiot\\Hotel_Vilobiot\\obj\\",
+        "projectPath": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\Hotel_Vilobiot.csproj",
+        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\student\\Documents\\GitHub\\Hotel_Vilobiot\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -38,10 +45,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "AutoMapper": {
@@ -120,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Administrator\\.dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
