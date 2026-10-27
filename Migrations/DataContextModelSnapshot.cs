@@ -182,9 +182,9 @@ namespace Hotel_Vilobiot.Migrations
                         new
                         {
                             Id = 15,
-                            City = "Tbilisi",
-                            Name = "Vilobiot Old Town Hotel",
-                            Stars = 4m
+                            City = "Oni---Cxmori",
+                            Name = "Vilobiot Village Hotel",
+                            Stars = 5m
                         });
                 });
 

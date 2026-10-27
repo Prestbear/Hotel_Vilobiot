@@ -46,7 +46,6 @@ public class GuestService : IGuestService.IGuestService
         if (verifyGuest == null) return false;
         verifyGuest.Code = null;
         _context.SaveChanges();
-        var mail = SMTPService.SendEmail(email, verifyGuest.FullName);
         return true;
     }
 
