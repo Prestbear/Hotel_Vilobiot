@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Helpers",
     "\\Services",
+    "\\Services\\GuestServices",
     "\\Services\\HotelServices",
     "\\Validators"
   ],

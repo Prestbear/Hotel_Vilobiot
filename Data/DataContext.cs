@@ -15,7 +15,9 @@ public class DataContext : DbContext
     {
         // optionsBuilder.UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;");// Giorgi
         //optionsBuilder.UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=Hotel_Vilobiot;Trusted_Connection=True;TrustServerCertificate=True;"); // Giorgi 2
-        optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=hotel;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False;Command Timeout=30"); // - IT Laptop(poop)
+        //optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=hotel;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False;Command Timeout=30"); // - IT Laptop(poop)
+        // andria pc:
+        optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=hotel;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False;Command Timeout=30");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
