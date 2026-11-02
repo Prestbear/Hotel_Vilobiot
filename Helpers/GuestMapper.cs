@@ -12,7 +12,7 @@ public class GuestMapper : Profile
         CreateMap<Guest, EditGuestRequest>().ReverseMap();
         CreateMap<Guest, LoginRequest>().ReverseMap();
         //Hotel
-        CreateMap<Hotel, ReserveReqeuest>().ReverseMap();
-        CreateMap<Hotel, CheckOutReqeust>().ReverseMap();
+        CreateMap<Reservation, ReserveReqeuest>().ReverseMap();
+        CreateMap<CheckOutReqeust, Reservation>();
     }
 }

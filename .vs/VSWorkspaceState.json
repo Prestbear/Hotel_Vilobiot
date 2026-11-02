@@ -2,11 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\Helpers",
+    "\\Migrations",
     "\\Services",
     "\\Services\\GuestServices",
     "\\Services\\HotelServices",
     "\\Validators"
   ],
-  "SelectedNode": "\\Validators\\ReservationValidator.cs",
+  "SelectedNode": "\\Models",
   "PreviewInSolutionExplorer": false
 }

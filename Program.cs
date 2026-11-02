@@ -3,6 +3,7 @@ using Hotel_Vilobiot.Data;
 using Hotel_Vilobiot.Helpers;
 using Hotel_Vilobiot.Models;
 using Hotel_Vilobiot.Services.GuestService;
+using Hotel_Vilobiot.Services.HotelServices;
 using Hotel_Vilobiot.Services.IGuestService;
 using Hotel_Vilobiot.Validators;
 
@@ -13,6 +14,7 @@ builder.Services.AddOpenApi();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DataContext>();
 builder.Services.AddScoped<IGuestService, GuestService>();
+builder.Services.AddScoped<IHotelService, HotelService>();
 builder.Services.AddAutoMapper(cnf => { }, typeof(GuestMapper));
 builder.Services.AddValidatorsFromAssemblyContaining<RegisterValidator>();
 

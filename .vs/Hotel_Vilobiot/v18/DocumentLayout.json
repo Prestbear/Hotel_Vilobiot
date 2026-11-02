@@ -79,8 +79,7 @@
               "RelativeToolTip": "Helpers\\GuestMapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T16:49:59.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T16:49:59.157Z"
             },
             {
               "$type": "Document",
@@ -92,8 +91,7 @@
               "RelativeToolTip": "Services\\GuestServices\\GuestService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T16:30:37.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T16:30:37.353Z"
             },
             {
               "$type": "Document",
@@ -105,8 +103,7 @@
               "RelativeToolTip": "Services\\HotelServices\\HotelService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T16:27:38.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T16:27:38.951Z"
             }
           ]
         }

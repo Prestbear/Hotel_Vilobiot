@@ -242,9 +242,6 @@ namespace Hotel_Vilobiot.Migrations
                     b.Property<int>("RoomType")
                         .HasColumnType("int");
 
-                    b.Property<bool>("Status")
-                        .HasColumnType("bit");
-
                     b.HasKey("Id");
 
                     b.HasIndex("HotelId");
@@ -259,8 +256,7 @@ namespace Hotel_Vilobiot.Migrations
                             HotelId = 1,
                             Number = 101,
                             PricePerNight = 120.0,
-                            RoomType = 0,
-                            Status = true
+                            RoomType = 0
                         },
                         new
                         {
@@ -269,8 +265,7 @@ namespace Hotel_Vilobiot.Migrations
                             HotelId = 1,
                             Number = 102,
                             PricePerNight = 150.0,
-                            RoomType = 1,
-                            Status = true
+                            RoomType = 1
                         },
                         new
                         {
@@ -279,8 +274,7 @@ namespace Hotel_Vilobiot.Migrations
                             HotelId = 1,
                             Number = 103,
                             PricePerNight = 180.0,
-                            RoomType = 2,
-                            Status = false
+                            RoomType = 2
                         },
                         new
                         {
@@ -289,8 +283,7 @@ namespace Hotel_Vilobiot.Migrations
                             HotelId = 2,
                             Number = 201,
                             PricePerNight = 100.0,
-                            RoomType = 0,
-                            Status = true
+                            RoomType = 0
                         },
                         new
                         {
@@ -299,8 +292,7 @@ namespace Hotel_Vilobiot.Migrations
                             HotelId = 2,
                             Number = 202,
                             PricePerNight = 160.0,
-                            RoomType = 3,
-                            Status = true
+                            RoomType = 3
                         },
                         new
                         {
@@ -309,8 +301,7 @@ namespace Hotel_Vilobiot.Migrations
                             HotelId = 3,
                             Number = 101,
                             PricePerNight = 200.0,
-                            RoomType = 4,
-                            Status = true
+                            RoomType = 4
                         },
                         new
                         {
@@ -319,8 +310,7 @@ namespace Hotel_Vilobiot.Migrations
                             HotelId = 3,
                             Number = 201,
                             PricePerNight = 300.0,
-                            RoomType = 5,
-                            Status = true
+                            RoomType = 5
                         },
                         new
                         {
@@ -329,8 +319,7 @@ namespace Hotel_Vilobiot.Migrations
                             HotelId = 4,
                             Number = 101,
                             PricePerNight = 250.0,
-                            RoomType = 8,
-                            Status = true
+                            RoomType = 8
                         },
                         new
                         {
@@ -339,8 +328,7 @@ namespace Hotel_Vilobiot.Migrations
                             HotelId = 4,
                             Number = 102,
                             PricePerNight = 350.0,
-                            RoomType = 9,
-                            Status = false
+                            RoomType = 9
                         },
                         new
                         {
@@ -349,8 +337,7 @@ namespace Hotel_Vilobiot.Migrations
                             HotelId = 5,
                             Number = 301,
                             PricePerNight = 400.0,
-                            RoomType = 10,
-                            Status = true
+                            RoomType = 10
                         },
                         new
                         {
@@ -359,8 +346,7 @@ namespace Hotel_Vilobiot.Migrations
                             HotelId = 5,
                             Number = 302,
                             PricePerNight = 500.0,
-                            RoomType = 11,
-                            Status = true
+                            RoomType = 11
                         },
                         new
                         {
@@ -369,8 +355,7 @@ namespace Hotel_Vilobiot.Migrations
                             HotelId = 6,
                             Number = 101,
                             PricePerNight = 80.0,
-                            RoomType = 0,
-                            Status = true
+                            RoomType = 0
                         },
                         new
                         {
@@ -379,8 +364,7 @@ namespace Hotel_Vilobiot.Migrations
                             HotelId = 7,
                             Number = 501,
                             PricePerNight = 600.0,
-                            RoomType = 12,
-                            Status = true
+                            RoomType = 12
                         },
                         new
                         {
@@ -389,8 +373,7 @@ namespace Hotel_Vilobiot.Migrations
                             HotelId = 8,
                             Number = 201,
                             PricePerNight = 140.0,
-                            RoomType = 2,
-                            Status = true
+                            RoomType = 2
                         },
                         new
                         {
@@ -399,8 +382,7 @@ namespace Hotel_Vilobiot.Migrations
                             HotelId = 9,
                             Number = 101,
                             PricePerNight = 220.0,
-                            RoomType = 5,
-                            Status = true
+                            RoomType = 5
                         },
                         new
                         {
@@ -409,8 +391,7 @@ namespace Hotel_Vilobiot.Migrations
                             HotelId = 10,
                             Number = 301,
                             PricePerNight = 190.0,
-                            RoomType = 3,
-                            Status = false
+                            RoomType = 3
                         },
                         new
                         {
@@ -419,8 +400,7 @@ namespace Hotel_Vilobiot.Migrations
                             HotelId = 11,
                             Number = 101,
                             PricePerNight = 70.0,
-                            RoomType = 1,
-                            Status = true
+                            RoomType = 1
                         },
                         new
                         {
@@ -429,8 +409,7 @@ namespace Hotel_Vilobiot.Migrations
                             HotelId = 12,
                             Number = 401,
                             PricePerNight = 320.0,
-                            RoomType = 6,
-                            Status = true
+                            RoomType = 6
                         },
                         new
                         {
@@ -439,18 +418,52 @@ namespace Hotel_Vilobiot.Migrations
                             HotelId = 13,
                             Number = 201,
                             PricePerNight = 240.0,
-                            RoomType = 7,
-                            Status = true
+                            RoomType = 7
                         },
                         new
                         {
                             Id = 20,
-                            Floor = 5,
+                            Floor = 1,
                             HotelId = 14,
-                            Number = 501,
+                            Number = 101,
                             PricePerNight = 550.0,
-                            RoomType = 12,
-                            Status = true
+                            RoomType = 12
+                        },
+                        new
+                        {
+                            Id = 21,
+                            Floor = 1,
+                            HotelId = 15,
+                            Number = 101,
+                            PricePerNight = 50.0,
+                            RoomType = 0
+                        },
+                        new
+                        {
+                            Id = 22,
+                            Floor = 1,
+                            HotelId = 15,
+                            Number = 102,
+                            PricePerNight = 70.0,
+                            RoomType = 1
+                        },
+                        new
+                        {
+                            Id = 23,
+                            Floor = 2,
+                            HotelId = 15,
+                            Number = 201,
+                            PricePerNight = 120.0,
+                            RoomType = 3
+                        },
+                        new
+                        {
+                            Id = 24,
+                            Floor = 2,
+                            HotelId = 15,
+                            Number = 202,
+                            PricePerNight = 120.0,
+                            RoomType = 3
                         });
                 });
 
