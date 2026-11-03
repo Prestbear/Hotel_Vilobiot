@@ -15,7 +15,7 @@ public class SMTPService
     public static string GenerateCode()
         => RandomNumberGenerator.GetInt32(0, 999_999).ToString("D6");
 
-    public static async Task<bool> SendEmail(string email, string username)
+    public static async Task<string> SendEmail(string email, string username)
     {
         string code = GenerateCode();
 
@@ -43,8 +43,8 @@ public class SMTPService
 
         await smtp.SendMailAsync(mail);
 
-        Codes[email] = (code, DateTime.UtcNow.AddMinutes(5)); // 5 min whait
-        return true;
+        Codes[email] = (code, DateTime.UtcNow.AddMinutes(5)); // 5 min wait
+        return code;
     }
 
     public static bool VerifyCode(string email, string code)

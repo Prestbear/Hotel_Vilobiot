@@ -95,7 +95,28 @@
         }
       }
     },
-    "/api/Guest/update-guest/${id}": {
+    "/api/Guest/resend-code": {
+      "post": {
+        "tags": [
+          "Guest"
+        ],
+        "parameters": [
+          {
+            "name": "email",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Guest/update-guest/{id}": {
       "put": {
         "tags": [
           "Guest"
@@ -137,7 +158,7 @@
         }
       }
     },
-    "/api/Guest/delete-guest/${id}": {
+    "/api/Guest/delete-guest/{id}": {
       "delete": {
         "tags": [
           "Guest"
@@ -425,6 +446,36 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Hotel/cancel-reservation": {
+      "patch": {
+        "tags": [
+          "Hotel"
+        ],
+        "parameters": [
+          {
+            "name": "reservationId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "guestId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"

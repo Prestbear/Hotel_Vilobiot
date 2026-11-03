@@ -34,9 +34,12 @@ public class GuestService : IGuestService.IGuestService
     public Guest Login(LoginRequest req)
     {
         var loginGuest = _context.Guests.FirstOrDefault
-            (x => x.Email == req.Email && x.Password == req.Password);
+            (x => x.Email == req.Email);
+
         if (loginGuest == null) return null;
+
         if (!BCrypt.Net.BCrypt.Verify(req.Password, loginGuest.Password)) return null;
+
         return loginGuest;
     }
 
@@ -44,8 +47,26 @@ public class GuestService : IGuestService.IGuestService
     {
         var verifyGuest = _context.Guests.FirstOrDefault(x => x.Email == email && x.Code == code);
         if (verifyGuest == null) return false;
+
+        verifyGuest.IsVerified = true;
         verifyGuest.Code = null;
+
         _context.SaveChanges();
+
+        return true;
+    }
+
+    public async Task<bool> ResendCode(string email)
+    {
+        Guest guest = _context.Guests.FirstOrDefault(y => y.Email == email);
+
+        if(guest == null || guest.IsVerified) return false;
+
+        string code = await SMTPService.SendEmail(email, guest.FullName);
+
+        guest.Code = code;
+        await _context.SaveChangesAsync();
+
         return true;
     }
 
@@ -53,9 +74,16 @@ public class GuestService : IGuestService.IGuestService
     {
         var updateGuest = _context.Guests.FirstOrDefault(x => x.Id == id);
         if (updateGuest == null) return false;
+
         _mapper.Map(req, updateGuest);
-        _context.Update(updateGuest);
+
+        if (!string.IsNullOrWhiteSpace(req.Password))
+        {
+            updateGuest.Password = BCrypt.Net.BCrypt.HashPassword(req.Password);
+        }
+
         _context.SaveChanges();
+
         return true;
     }
 
@@ -63,8 +91,10 @@ public class GuestService : IGuestService.IGuestService
     {
         var deleteGuest = _context.Guests.FirstOrDefault(x => x.Id == id);
         if (deleteGuest == null) return false;
+
         _context.Guests.Remove(deleteGuest);
         _context.SaveChanges();
+
         return true;
     }
 }

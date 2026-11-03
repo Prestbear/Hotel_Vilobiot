@@ -16,7 +16,7 @@ builder.Services.AddDbContext<DataContext>();
 builder.Services.AddScoped<IGuestService, GuestService>();
 builder.Services.AddScoped<IHotelService, HotelService>();
 builder.Services.AddAutoMapper(cnf => { }, typeof(GuestMapper));
-builder.Services.AddValidatorsFromAssemblyContaining<RegisterValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<Program>();
 
 var app = builder.Build();
 

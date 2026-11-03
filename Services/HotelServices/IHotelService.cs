@@ -11,6 +11,6 @@ public interface IHotelService
     IEnumerable<Room> GetAvailableRooms(int hotelId, DateTime checkIn, DateTime checkOut);
     IEnumerable<Reservation> GetRoomBookedDates(int roomId);
     bool ReserveRoom(ReserveReqeuest req);
-    bool CancelReservation(int reservationId);
+    bool CancelReservation(int reservationId, int guestId);
     bool CheckOut(CheckOutReqeust req);
 }

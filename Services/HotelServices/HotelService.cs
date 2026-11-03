@@ -68,9 +68,18 @@ public class HotelService : IHotelService
             .ToList();
     }
 
-    public bool CancelReservation(int reservationId)
+    public bool CancelReservation(int reservationId, int guestId)
     {
-        throw new NotImplementedException();
+        Reservation reservation = _context.Reservations.FirstOrDefault(x => x.Id == reservationId);
+
+        if (reservation == null) return false;
+
+        if (reservation.GuestId != guestId) return false;
+
+        reservation.CheckOut = DateTime.Now;
+        _context.SaveChanges();
+
+        return true;
     }
 
     public bool CheckOut(CheckOutReqeust req)

@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using Microsoft.AspNetCore.Identity.Data;
+using Hotel_Vilobiot.DTO.Request;
 
 namespace Hotel_Vilobiot.Validators;
 

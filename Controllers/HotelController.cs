@@ -53,13 +53,12 @@ public class HotelController : ControllerBase
 
         if (checkIn.Date < today)
         {
-            return BadRequest(new { message = "Invalid date. Check-in date cannot be in the past!" });
+            return BadRequest("Invalid date. Check-in date cannot be in the past!");
         }
 
-        // Check if check-out is before or equal to check-in
         if (checkOut <= checkIn)
         {
-            return BadRequest(new { message = "Invalid date. Check-out date must be later than the check-in date!" });
+            return BadRequest("Invalid date. Check-out date must be later than the check-in date!");
         }
 
         var availableRooms = _hs.GetAvailableRooms(hotelId, checkIn, checkOut);
@@ -83,9 +82,19 @@ public class HotelController : ControllerBase
         var success = _hs.ReserveRoom(req);
         if (!success)
         {
-            return BadRequest(new { message = "The room is already booked for the selected dates." });
+            return BadRequest("The room is already booked for the selected dates.");
         }
 
-        return Ok(new { message = "Reservation created successfully!" });
+        return Ok("Reservation created successfully!");
+    }
+
+    [HttpPatch("cancel-reservation")]
+    public IActionResult CancelReservation(int reservationId, int guestId)
+    {
+        var cancelReservation = _hs.CancelReservation(reservationId, guestId);
+
+        if (!cancelReservation) return BadRequest("Reservation doesn't exist or belongs to another Guest!");
+
+        return Ok("Reservation cancelled");
     }
 }
