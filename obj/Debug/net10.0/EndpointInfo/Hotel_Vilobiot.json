@@ -482,10 +482,51 @@
           }
         }
       }
+    },
+    "/api/Hotel/checkout": {
+      "post": {
+        "tags": [
+          "Hotel"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CheckOutReqeust"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CheckOutReqeust"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CheckOutReqeust"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
     "schemas": {
+      "CheckOutReqeust": {
+        "type": "object",
+        "properties": {
+          "reservationId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "EditGuestRequest": {
         "type": "object",
         "properties": {
@@ -601,6 +642,9 @@
             "format": "date-time",
             "nullable": true
           },
+          "status": {
+            "$ref": "#/components/schemas/ReservationStatusEnum"
+          },
           "isActive": {
             "type": "boolean",
             "readOnly": true
@@ -611,6 +655,15 @@
           }
         },
         "additionalProperties": false
+      },
+      "ReservationStatusEnum": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
       },
       "ReserveReqeuest": {
         "type": "object",

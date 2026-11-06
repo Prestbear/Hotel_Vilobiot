@@ -210,6 +210,22 @@
   },
   {
     "ContainingType": "Hotel_Vilobiot.Controllers.HotelController",
+    "Method": "CheckOut",
+    "RelativePath": "api/Hotel/checkout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Hotel_Vilobiot.DTO.Request.CheckOutReqeust",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hotel_Vilobiot.Controllers.HotelController",
     "Method": "ReserveRoom",
     "RelativePath": "api/Hotel/reserve",
     "HttpMethod": "POST",

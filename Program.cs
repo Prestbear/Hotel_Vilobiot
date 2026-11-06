@@ -5,6 +5,7 @@ using Hotel_Vilobiot.Models;
 using Hotel_Vilobiot.Services.GuestService;
 using Hotel_Vilobiot.Services.HotelServices;
 using Hotel_Vilobiot.Services.IGuestService;
+using Hotel_Vilobiot.Services.SMTP;
 using Hotel_Vilobiot.Validators;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +16,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DataContext>();
 builder.Services.AddScoped<IGuestService, GuestService>();
 builder.Services.AddScoped<IHotelService, HotelService>();
+builder.Services.AddScoped<SMTPService>();
 builder.Services.AddAutoMapper(cnf => { }, typeof(GuestMapper));
 builder.Services.AddValidatorsFromAssemblyContaining<Program>();
 

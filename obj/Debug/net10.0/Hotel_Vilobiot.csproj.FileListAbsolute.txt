@@ -729,3 +729,4 @@ C:\Users\pc\Documents\GitHub\Hotel_Vilobiot\obj\Debug\net10.0\Hotel_Vilobiot.pdb
 C:\Users\pc\Documents\GitHub\Hotel_Vilobiot\obj\Debug\net10.0\Hotel_Vilobiot.genruntimeconfig.cache
 C:\Users\pc\Documents\GitHub\Hotel_Vilobiot\obj\Debug\net10.0\ref\Hotel_Vilobiot.dll
 C:\Users\pc\Documents\GitHub\Hotel_Vilobiot\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\pc\Documents\GitHub\Hotel_Vilobiot\bin\Debug\net10.0\dotnet-tools.json

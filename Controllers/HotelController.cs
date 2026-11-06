@@ -12,6 +12,7 @@ public class HotelController : ControllerBase
 {
     private readonly IHotelService _hs;
 
+
     public HotelController(IHotelService hotelService)
     {
         _hs = hotelService;
@@ -82,7 +83,10 @@ public class HotelController : ControllerBase
         var success = _hs.ReserveRoom(req);
         if (!success)
         {
-            return BadRequest("The room is already booked for the selected dates.");
+            return BadRequest("Error when trying to book room. Possible explanations:" +
+            "The Room is already booked for the selected dates." +
+            "The Room does not belong to the chosen Hotel" +
+            "The Hotel or the Room does not exist!");
         }
 
         return Ok("Reservation created successfully!");
@@ -96,5 +100,18 @@ public class HotelController : ControllerBase
         if (!cancelReservation) return BadRequest("Reservation doesn't exist or belongs to another Guest!");
 
         return Ok("Reservation cancelled");
+    }
+
+    [HttpPost("checkout")]
+    public IActionResult CheckOut(CheckOutReqeust req)
+    {
+        bool success = _hs.CheckOut(req);
+
+        if (!success)
+        {
+            return BadRequest("No active reservation found for this room and guest.");
+        }
+
+        return Ok(new { message = "Checkout successful. Room is now available." });
     }
 }

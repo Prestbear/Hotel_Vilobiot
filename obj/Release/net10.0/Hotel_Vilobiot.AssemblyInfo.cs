@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hotel_Vilobiot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5238201bd368649d486fca5ce14678d07301a1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c49833388b3062926d9290e06d025ea4545f2286")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hotel_Vilobiot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hotel_Vilobiot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

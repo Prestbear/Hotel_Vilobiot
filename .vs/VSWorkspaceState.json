@@ -3,11 +3,12 @@
     "",
     "\\Helpers",
     "\\Migrations",
+    "\\Models",
     "\\Services",
     "\\Services\\GuestServices",
     "\\Services\\HotelServices",
     "\\Validators"
   ],
-  "SelectedNode": "\\Hotel_Vilobiot.slnx",
+  "SelectedNode": "\\Models\\Reservation.cs",
   "PreviewInSolutionExplorer": false
 }
